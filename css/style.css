@@ -1,0 +1,310 @@
+/*GENERAL CSS*/
+*{
+    box-sizing:border-box;
+}
+
+/* MARGINS EN PADDINGS*/
+
+
+/*COLORS*/
+
+/* FONTS */
+
+/* POSITIONING CSS*/
+/* Display Flex */
+.d-flex {
+    display: flex;
+}
+
+.d-inline-flex {
+    display: inline-flex;
+}
+
+/* Flex Direction */
+.flex-row {
+    flex-direction: row;
+}
+
+.flex-row-reverse {
+    flex-direction: row-reverse;
+}
+
+.flex-column {
+    flex-direction: column;
+}
+
+.flex-column-reverse {
+    flex-direction: column-reverse;
+}
+
+/* Flex Wrap */
+.flex-wrap {
+    flex-wrap: wrap;
+}
+
+.flex-nowrap {
+    flex-wrap: nowrap;
+}
+
+.flex-wrap-reverse {
+    flex-wrap: wrap-reverse;
+}
+
+/* Justify Content */
+.justify-content-start {
+    justify-content: flex-start;
+}
+
+.justify-content-end {
+    justify-content: flex-end;
+}
+
+.justify-content-center {
+    justify-content: center;
+}
+
+.justify-content-between {
+    justify-content: space-between;
+}
+
+.justify-content-around {
+    justify-content: space-around;
+}
+
+.justify-content-evenly {
+    justify-content: space-evenly;
+}
+
+/* Align Items */
+.align-items-start {
+    align-items: flex-start;
+}
+
+.align-items-end {
+    align-items: flex-end;
+}
+
+.align-items-center {
+    align-items: center;
+}
+
+.align-items-baseline {
+    align-items: baseline;
+}
+
+.align-items-stretch {
+    align-items: stretch;
+}
+
+/* Align Content */
+.align-content-start {
+    align-content: flex-start;
+}
+
+.align-content-end {
+    align-content: flex-end;
+}
+
+.align-content-center {
+    align-content: center;
+}
+
+.align-content-between {
+    align-content: space-between;
+}
+
+.align-content-around {
+    align-content: space-around;
+}
+
+.align-content-stretch {
+    align-content: stretch;
+}
+
+/* Align Self */
+.align-self-auto {
+    align-self: auto;
+}
+
+.align-self-start {
+    align-self: flex-start;
+}
+
+.align-self-end {
+    align-self: flex-end;
+}
+
+.align-self-center {
+    align-self: center;
+}
+
+.align-self-baseline {
+    align-self: baseline;
+}
+
+.align-self-stretch {
+    align-self: stretch;
+}
+
+/* Order */
+.order-first {
+    order: -1;
+}
+
+.order-last {
+    order: 13;
+}
+
+.order-0 {
+    order: 0;
+}
+
+.order-1 {
+    order: 1;
+}
+
+.order-2 {
+    order: 2;
+}
+
+.order-3 {
+    order: 3;
+}
+
+.order-4 {
+    order: 4;
+}
+
+.order-5 {
+    order: 5;
+}
+
+.order-6 {
+    order: 6;
+}
+
+.order-7 {
+    order: 7;
+}
+
+.order-8 {
+    order: 8;
+}
+
+.order-9 {
+    order: 9;
+}
+
+.order-10 {
+    order: 10;
+}
+
+.order-11 {
+    order: 11;
+}
+
+.order-12 {
+    order: 12;
+}
+
+/* Grow and Shrink */
+.flex-grow-0 {
+    flex-grow: 0;
+}
+
+.flex-grow-1 {
+    flex-grow: 1;
+}
+
+.flex-shrink-0 {
+    flex-shrink: 0;
+}
+
+.flex-shrink-1 {
+    flex-shrink: 1;
+}
+.text-center{
+    text-align:center;
+}
+/*FONTS*/
+@font-face {
+    font-family: karla;
+    src: url('../fonts/Karla-VariableFont_wght.ttf');
+}
+@font-face{
+    font-family: work;
+    src:url('../fonts/WorkSans-VariableFont_wght.ttf');
+}
+@font-face{
+    font-family: segoeuibold;
+    src:url('../fonts/Segoe UI Bold.woff');
+}
+@font-face{
+    font-family: segoeuibolditalic;
+    src:url('../fonts/Segoe UI Bold Italic.woff');
+}
+@font-face{
+    font-family: segoeuilight;
+    src:url('../fonts/Segoe UI Light.ttf');
+}
+/* BODY */
+body{
+    width:1920px;
+    margin:0 auto;
+}
+
+/*HEADER*/
+header{
+    background:url('../img/backgroundhome.png') no-repeat;
+}
+/*NAVIGATIE*/
+nav{
+    font-family: karla;
+    font-size: 17px;
+    width: 1170px;
+    margin: 0 auto;
+}
+nav ul li{
+    list-style-type: none;
+
+
+}
+nav li a{
+    text-decoration: none;
+    color: white;
+
+}
+#menu{
+    width: 770px;
+}
+#taal{
+    width: 400px;
+}
+#menu ul{
+    width: 100%;
+}
+h1{
+    font-family: work;
+    color: white;
+    font-size: 62px;
+}
+.getconnected{
+    font-family: work;
+    font-weight: lighter;
+    color: white;
+    font-size: 44px;
+}
+.headerp{
+    font-family: karla;
+    color: white;
+    font-size: 17px;
+    font-weight: lighter;
+}
+.peoplehome{
+    width: 800px;
+    height: 800px;
+}
+.headersec{
+    width: 500px;
+    margin-left: 375px;
+}
